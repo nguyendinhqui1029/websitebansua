@@ -5,10 +5,10 @@
 		<span> Tài khoản </span>
 	</h3>
 	<ul>
-		<li><a href="#"><i class="fa fa-sign-in"></i>Đăng
+		<li><a href="dangnhap"><i class="fa fa-sign-in"></i>Đăng
 				nhập</a></li>
-		<li><a href="#"><i class="fa fa-key"></i>Đăng ký</a></li>
-		<li><a href="#"><i class="fa fa-key"></i>Quên
+		<li><a href="dangki.jsp"><i class="fa fa-key"></i>Đăng ký</a></li>
+		<li><a href="quen_mat_khau.jsp"><i class="fa fa-key"></i>Quên
 				mật khẩu</a></li>
 	</ul>
 </div>
