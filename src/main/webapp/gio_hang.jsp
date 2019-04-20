@@ -22,17 +22,17 @@
 				<div class="row">
 					<div class="col-md-3">
 					
-						<!-- content left tai khoan -->
-						<%@ include file="/WEB-INF/views/content_left_taikhoan.jsp"%>
-						<!-- content left tai khoan -->
+						<!-- Menu sản phẩm -->
+						<%@ include file="/WEB-INF/views/san_pham_menu.jsp"%>
+						<!-- Menu sản phẩm -->
 						
 					</div>
 
 					<div class="col-md-9">
 						<section class="product-content clearfix"> 
-						<!-- content right tài khoản -->
-						<%@ include file="/WEB-INF/views/content_right_taikhoan.jsp"%>
-						<!-- content right tài khoản --> 
+						<!-- content right giỏ hàng -->
+						<%@ include file="/WEB-INF/views/content_right_giohang.jsp"%>
+						<!-- content right giỏ hàng --> 
 						</section>
 					</div>
 				</div>
