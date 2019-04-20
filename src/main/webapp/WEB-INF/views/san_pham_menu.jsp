@@ -6,10 +6,10 @@
 	</h3>
 	<ul class='level0'>
 		<li class="child"><span><a href='san-pham/be-an-8623.html'><i
-					class='fa fa-arrow-circle-o-right'></i>Bé ăn</a></span><span
+					class='fa fa-arrow-circle-o-right'></i>Sữa bầu</a></span><span
 			class='open-close'><i class='fa fa-angle-down'></i></span>
 			<ul class='level1 hidden-xs'>
-				<li><span><a href='san-pham/sua-bot-8624.html'><i
+				<li><span><a href='san-pham/SP001'><i
 							class='fa fa-check'></i>sữa bột</a></span></li>
 				<li><span><a href='san-pham/chao-bot-an-dam-8625.html'><i
 							class='fa fa-check'></i>cháo, bột ăn dặm</a></span></li>

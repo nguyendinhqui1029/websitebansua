@@ -4,7 +4,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Sản phẩm</title>
+<title>${tieude}</title>
 <%@include file="/WEB-INF/views/head.jsp"%>
 </head>
 
@@ -21,18 +21,17 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-					
-						<!-- Menu sản phẩm -->
-						<%@ include file="/WEB-INF/views/san_pham_menu.jsp"%>
-						<!-- Menu sản phẩm -->
+						<!-- conten left tai khoan -->
+						<%@ include file="/WEB-INF/views/content_left_taikhoan.jsp"%>
+						<!-- conten left tai khoan -->
 						
 					</div>
 
 					<div class="col-md-9">
 						<section class="product-content clearfix"> 
-						<!-- content right giỏ hàng -->
-						<%@ include file="/WEB-INF/views/content_right_giohang.jsp"%>
-						<!-- content right giỏ hàng --> 
+						<!-- noi dung dang ki tai khoan -->
+						<%@ include file="/WEB-INF/views/content_right_dangki.jsp"%>
+						<!-- noi dung dang ki tai khoan -->
 						</section>
 					</div>
 				</div>

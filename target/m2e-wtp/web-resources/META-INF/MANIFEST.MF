@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: votha
+=======
+Built-By: DINHQUI
+>>>>>>> Connect database
 Build-Jdk: 1.8.0_192
 Created-By: Maven Integration for Eclipse
 
