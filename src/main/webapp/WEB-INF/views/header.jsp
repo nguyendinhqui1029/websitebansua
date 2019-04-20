@@ -188,7 +188,7 @@
                                                                     <li class="level2"><a class=''
                                                                             href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
                                                                                 cụ ăn uống</span></a></li>
-                                                                </ul class='level2'>
+                                                                </ul>
                                                             </li>
                                                             <li class="level1"><a class=''
                                                                     href='san-pham/SP001'><span>Sữa tăng cân</span></a>
@@ -202,7 +202,7 @@
                                                                     <li class="level2"><a class=''
                                                                             href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
                                                                                 cụ ăn uống</span></a></li>
-                                                                </ul class='level2'>
+                                                                </ul>
                
                                                             </li>
                                                             <li class="level1"><a class=''
@@ -220,7 +220,7 @@
                                                                         mẹ</span></a>
                                                                 
                                                             </li>
-                                                        </ul class='level1'>
+                                                        </ul>
                                                     </li>
                                                     <li class="level0"><a class='' href='tin-tuc'><span>Tin
                                                                 tức</span></a></li>
@@ -228,7 +228,7 @@
                                                                 thiệu</span></a></li>
                                                     <li class="level0"><a class='' href='lien-he'><span>Liên
                                                                 hệ</span></a></li>
-                                                </ul class='menu nav navbar-nav'>
+                                                </ul>
                                             </nav>
                                         </nav>
                                     </div>
