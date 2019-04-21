@@ -21,19 +21,28 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<!-- Menu sản phẩm -->
-						<%@ include file="/WEB-INF/views/san_pham_menu.jsp"%>
-						<!-- Menu sản phẩm -->
-						<!-- Sản phẩm bán chạy -->
-						<%@ include file="/WEB-INF/views/san_pham_noi_bat.jsp"%>
-						<!-- Sản phẩm bán chạy -->
+					
+						<!-- content left tin tức -->
+						<%@ include file="/WEB-INF/views/content_left_tintuc.jsp"%>
+						<!-- content left tin tức -->
+						<!-- content left hổ trợ trực tuyến -->
+						<%@ include file="/WEB-INF/views/ho_tro_truc_tuyen.jsp"%>
+						<!-- content left hổ trợ trực tuyến -->
+						
 					</div>
 
-					<div class="col-md-9">
-						<section class="product-content clearfix"> <!-- Danh sách sản phẩm -->
-						<%@ include file="/WEB-INF/views/danh_sach_san_pham.jsp"%>
-						<!-- Danh sách sản phẩm --> <!-- Phân trang --> <%@ include
-							file="/WEB-INF/views/phan_trang.jsp"%> <!-- Phân trang -->
+					<div class="col-md-6">
+						<section class="product-content clearfix"> 
+						<!-- content center tin tức -->
+						<%@ include file="/WEB-INF/views/content_center_tintuc.jsp"%>
+						<!-- content center tin tức --> 
+						</section>
+					</div>
+					<div class="col-md-3">
+						<section class="product-content clearfix"> 
+						<!-- content right tin tức -->
+						<%@ include file="/WEB-INF/views/content_right_tintuc.jsp"%>
+						<!-- content right tin tức --> 
 						</section>
 					</div>
 				</div>

@@ -20,21 +20,15 @@
 		<div class="main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-12">
 					
-						<!-- Menu sản phẩm -->
-						<%@ include file="/WEB-INF/views/san_pham_menu.jsp"%>
-						<!-- Menu sản phẩm -->
+						<!-- nội dung chi tiết đơn hàng -->
+						<%@ include file="/WEB-INF/views/content_center_donhang.jsp"%>
+						<!-- nội dung chi tiết đơn hàng -->
 						
 					</div>
 
-					<div class="col-md-9">
-						<section class="product-content clearfix"> 
-						<!-- content right giỏ hàng -->
-						<%@ include file="/WEB-INF/views/content_right_giohang.jsp"%>
-						<!-- content right giỏ hàng --> 
-						</section>
-					</div>
+					
 				</div>
 			</div>
 		</div>

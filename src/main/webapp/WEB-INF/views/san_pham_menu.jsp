@@ -6,16 +6,16 @@
 	</h3>
 	<ul class='level0'>
 		<li class="child"><span><a href='san-pham/be-an-8623.html'><i
-					class='fa fa-arrow-circle-o-right'></i>Bé ăn</a></span><span
+					class='fa fa-arrow-circle-o-right'></i>Sữa bầu</a></span><span
 			class='open-close'><i class='fa fa-angle-down'></i></span>
 			<ul class='level1 hidden-xs'>
-				<li><span><a href='san-pham/sua-bot-8624.html'><i
+				<li><span><a href='san-pham/SP001'><i
 							class='fa fa-check'></i>sữa bột</a></span></li>
 				<li><span><a href='san-pham/chao-bot-an-dam-8625.html'><i
 							class='fa fa-check'></i>cháo, bột ăn dặm</a></span></li>
 				<li><span><a href='san-pham/dung-cu-an-uong-8626.html'><i
 							class='fa fa-check'></i>dụng cụ ăn uống</a></span></li>
-			</ul class='level1 hidden-xs'></li>
+			</ul></li>
 		<li class="child"><span><a
 				href='san-pham/be-mac-8627.html'><i
 					class='fa fa-arrow-circle-o-right'></i>bé mặc</a></span><span
@@ -27,7 +27,7 @@
 							class='fa fa-check'></i>thời trang cho bé</a></span></li>
 				<li><span><a href='#'><i class='fa fa-check'></i>phụ
 							kiện</a></span></li>
-			</ul class='level1 hidden-xs'></li>
+			</ul></li>
 		<li class="child"><span><a href='#'><i
 					class='fa fa-arrow-circle-o-right'></i>bé vệ sinh</a></span><span
 			class='open-close'><i class='fa fa-angle-down'></i></span>
@@ -38,7 +38,7 @@
 							gội, sữa tắm</a></span></li>
 				<li><span><a href='#'><i class='fa fa-check'></i>Kem,
 							phấn rôm</a></span></li>
-			</ul class='level1 hidden-xs'></li>
+			</ul ></li>
 		<li class="child"><span><a href='#'><i
 					class='fa fa-arrow-circle-o-right'></i>bé ra phố</a></span><span
 			class='open-close'><i class='fa fa-angle-down'></i></span>
@@ -47,7 +47,7 @@
 							ghế an toàn</a></span></li>
 				<li><span><a href='san-pham/xe-cho-be-8647.html'><i
 							class='fa fa-check'></i>xe cho bé</a></span></li>
-			</ul class='level1 hidden-xs'></li>
+			</ul ></li>
 		<li class="child"><span><a href='#'><i
 					class='fa fa-arrow-circle-o-right'></i>dành cho mẹ</a></span><span
 			class='open-close'><i class='fa fa-angle-down'></i></span>
@@ -58,8 +58,8 @@
 							trang</a></span></li>
 				<li><span><a href='#'><i class='fa fa-check'></i>mỹ
 							phẩm</a></span></li>
-			</ul class='level1 hidden-xs'></li>
-	</ul class='level0'>
+			</ul></li>
+	</ul>
 </div>
 <script type="text/javascript">
                             $(document).ready(function () {

@@ -11,22 +11,22 @@
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="gioi-thieu">
                                         Giới thiệu
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="hinh-thuc-thanh-toan">
                                         Hình thức thanh toán
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="quy-dinh-su-dung">
                                         Quy định sử dụng
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="chinh-sach-bao-mat">
                                         Chính sách bảo mật
                                     </a>
                                 </li>
@@ -40,17 +40,17 @@
                             </div>
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="huong-dan-thanh-toan">
                                         Hướng dẫn thanh toán
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="chinh-sach-ban-hang">
                                         Chính sách bán hàng
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="quy-dinh-thao-luan">
                                         Quy định thảo luận
                                     </a>
                                 </li>

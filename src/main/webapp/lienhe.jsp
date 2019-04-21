@@ -22,17 +22,24 @@
 				<div class="row">
 					<div class="col-md-3">
 					
-						<!-- content left tai khoan -->
-						<%@ include file="/WEB-INF/views/content_left_taikhoan.jsp"%>
-						<!-- content left tai khoan -->
+						<!-- content left liên hệ -->
+						<%@ include file="/WEB-INF/views/ho_tro_truc_tuyen.jsp"%>
+						<!-- content left liên hệ -->
 						
 					</div>
 
-					<div class="col-md-9">
+					<div class="col-md-6">
 						<section class="product-content clearfix"> 
-						<!-- content right tài khoản -->
-						<%@ include file="/WEB-INF/views/content_right_taikhoan.jsp"%>
-						<!-- content right tài khoản --> 
+						<!-- content center liên hệ -->
+						<%@ include file="/WEB-INF/views/content_center_lienhe.jsp"%>
+						<!-- content center liên hệ -->
+						</section>
+					</div>
+					<div class="col-md-3">
+						<section class="product-content clearfix"> 
+						<!-- content right tin tức -->
+						<%@ include file="/WEB-INF/views/san_pham_noi_bat.jsp"%>
+						<!-- content right tin tức --> 
 						</section>
 					</div>
 				</div>

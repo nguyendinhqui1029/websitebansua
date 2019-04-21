@@ -10,13 +10,13 @@
                                <span>Hotline:0777203042</span></a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right topmenu  hidden-xs hidden-sm">
-                        <li class="order-check"><a href="#">
+                        <li class="order-check"><a href="kiem-tra-don-hang">
                         	<i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
-                        <li class="order-cart"><a href="#">
+                        <li class="order-cart"><a href="gio-hang">
                         	<i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
-                        <li class="account-login"><a href="#">
+                        <li class="account-login"><a href="dang-nhap">
                         	<i class="fa fa-sign-in"></i> Đăng nhập </a></li>
-                        <li class="account-register"><a href="#">
+                        <li class="account-register"><a href="dang-ki">
                         	<i class="fa fa-key"></i> Đăng ký </a></li>
                    </ul>
                    <div class="show-mobile hidden-lg hidden-md">
@@ -27,12 +27,12 @@
                 <div class="inner-toggle">
                      <ul class="login links">
                          <li>
-                            <a href="#">
+                            <a href="dang-ki">
                             	<i class="fa fa-sign-in"> </i> Đăngký
                             </a>
                          </li>
                          <li>
-                            <a href="#">
+                            <a href="dang-nhap">
                             	<i class="fa fa-key"></i> Đăng nhập</a>
                          </li>
                      </ul>
@@ -44,11 +44,11 @@
                   </div>
                   <div class="inner-toggle">
                        <ul class="links">
-                           <li><a id="mobile-wishlist-total" href="#" class="wishlist">
+                           <li><a id="mobile-wishlist-total" href="kiem-tra-don-hang" class="wishlist">
                            		<i class="fa fa-pencil-square-o"></i>
                                     Kiểm tra đơn hàng</a>
                            </li>
-                           <li><a href="#" class="shoppingcart">
+                           <li><a href="gio-hang" class="shoppingcart">
                            		<i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
                        </ul>
                  </div>
@@ -65,7 +65,7 @@
                                 <div class="row">
                                     <div class="col-md-3 col-xs-12 col-sm-12 header-left text-center">
                                         <div class="logo">
-                                            <a href="#" title="">
+                                            <a href="/" title="">
                                                 <img alt="" src="<c:url value="/resources/images/icon/Babydoctormom-logo1.png"/>"
                                                     class="img-responsive" />
                                             </a>
@@ -93,7 +93,7 @@
                                         </div>
                                         <div class="cart">
                                             <div class="heading">
-                                                <a href="#">
+                                                <a href="gio-hang">
                                                     <span class="icon">icon</span><span id="cart-total">
                                                         0
                                                         sp - 0đ
@@ -171,92 +171,64 @@
                                             </div>
                                             <nav id="mobile-menu" class="mobile-menu collapse navbar-collapse">
                                                 <ul class='menu nav navbar-nav'>
-                                                    <li class="level0"><a class='' href='#'><span>Trang
+                                                    <li class="level0"><a class='' href='/'><span>Trang
                                                                 chủ</span></a></li>
                                                     <li class="level0"><a class='' href='#'><span>Sản
                                                                 phẩm</span></a>
                                                         <ul class='level1'>
                                                             <li class="level1"><a class=''
-                                                                    href='#'><span>Bé
-                                                                        ăn</span></a>
+                                                                    href='san-pham/SP002'><span>Sữa bầu</span></a>
                                                                 <ul class='level2'>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>sữa
+                                                                            href='san-pham/sua-bot-8624.html'><span>sữa
                                                                                 bột</span></a></li>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>cháo,
+                                                                            href='san-pham/chao-bot-an-dam-8625.html'><span>cháo,
                                                                                 bột ăn dặm</span></a></li>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>dụng
+                                                                            href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
                                                                                 cụ ăn uống</span></a></li>
-                                                                </ul class='level2'>
+                                                                </ul>
                                                             </li>
                                                             <li class="level1"><a class=''
-                                                                    href='#'><span>bé
-                                                                        mặc</span></a>
+                                                                    href='san-pham/SP001'><span>Sữa tăng cân</span></a>
                                                                 <ul class='level2'>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>đồ
-                                                                                sơ sinh</span></a></li>
+                                                                            href='san-pham/sua-bot-8624.html'><span>sữa
+                                                                                bột</span></a></li>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>thời
-                                                                                trang cho bé</span></a></li>
+                                                                            href='san-pham/chao-bot-an-dam-8625.html'><span>cháo,
+                                                                                bột ăn dặm</span></a></li>
                                                                     <li class="level2"><a class=''
-                                                                            href='#'><span>phụ
-                                                                                kiện</span></a></li>
-                                                                </ul class='level2'>
+                                                                            href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
+                                                                                cụ ăn uống</span></a></li>
+                                                                </ul>
+               
                                                             </li>
                                                             <li class="level1"><a class=''
-                                                                    href='#'><span>bé vệ
+                                                                    href='san-pham/SP003'><span>bé vệ
                                                                         sinh</span></a>
-                                                                <ul class='level2'>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>bỉm,
-                                                                                tã</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>dầu
-                                                                                gội, sữa tắm</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>kem,
-                                                                                phấn rôm</span></a></li>
-                                                                </ul class='level2'>
+                                                            
                                                             </li>
                                                             <li class="level1"><a class=''
-                                                                    href='#'><span>bé ra
+                                                                    href='san-pham/SP004'><span>bé ra
                                                                         phố</span></a>
-                                                                <ul class='level2'>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>đai,
-                                                                                ghế an toàn</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>xe
-                                                                                cho bé</span></a></li>
-                                                                </ul class='level2'>
+                                                                
                                                             </li>
                                                             <li class="level1"><a class=''
-                                                                    href='#'><span>dành cho
+                                                                    href='san-pham/SP005'><span>dành cho
                                                                         mẹ</span></a>
-                                                                <ul class='level2'>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>sách
-                                                                                hay</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>thời
-                                                                                trang</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='#'><span>mỹ
-                                                                                phẩm</span></a></li>
-                                                                </ul class='level2'>
+                                                                
                                                             </li>
-                                                        </ul class='level1'>
+                                                        </ul>
                                                     </li>
-                                                    <li class="level0"><a class='' href='#'><span>Tin
+                                                    <li class="level0"><a class='' href='tin-tuc'><span>Tin
                                                                 tức</span></a></li>
-                                                    <li class="level0"><a class='' href='#'><span>Giới
+                                                    <li class="level0"><a class='' href='gioi-thieu'><span>Giới
                                                                 thiệu</span></a></li>
-                                                    <li class="level0"><a class='' href='#'><span>Liên
+                                                    <li class="level0"><a class='' href='lien-he'><span>Liên
                                                                 hệ</span></a></li>
-                                                </ul class='menu nav navbar-nav'>
+                                                </ul>
                                             </nav>
                                         </nav>
                                     </div>

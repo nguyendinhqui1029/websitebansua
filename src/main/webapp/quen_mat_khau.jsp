@@ -30,7 +30,7 @@
 					<div class="col-md-9">
 						<section class="product-content clearfix"> 
 						<!-- noi dung dang ki tai khoan -->
-						<%@ include file="/WEB-INF/views/content_right_dangki.jsp"%>
+						<%@ include file="/WEB-INF/views/content_right_quenmatkhau.jsp"%>
 						<!-- noi dung dang ki tai khoan -->
 						</section>
 					</div>

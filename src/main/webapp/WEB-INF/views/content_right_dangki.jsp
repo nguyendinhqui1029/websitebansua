@@ -8,12 +8,15 @@
                                 <strong>Error!</strong>
                                 <span ></span>
                             </div>
-                            <div  class="alert alert-success fade in">
+                            <div class="alert alert-success fade in">
+
                                 <button data-dismiss="alert" class="close"></button>
                                 <i class="fa-fw fa fa-check"></i>
                                 <strong>Success!</strong> Đăng ký thành công.
                             </div>
-                            <div  class="alert alert-danger fade in">
+
+                            <div class="alert alert-danger fade in">
+
                                 <button data-dismiss="alert" class="close"></button>
                                 <i class="fa-fw fa fa-times"></i>
                                 <strong>Error!</strong>
@@ -26,7 +29,7 @@
                                         <label for="Code" class="col-sm-3 control-label">Tài khoản<span
                                                 class="warning">(*)</span></label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" required="true" />
+                                            <input type="text" class="form-control"  required="true" />
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -40,7 +43,7 @@
                                         <label for="Password" class="col-sm-3 control-label">Mật khẩu<span
                                                 class="warning">(*)</span></label>
                                         <div class="col-sm-9">
-                                            <input type="password" class="form-control" 
+                                            <input type="password" class="form-control"
                                                 required="true" />
                                         </div>
                                     </div>
@@ -68,9 +71,9 @@
                                     <div class="form-group form-inline">
                                         <label class="col-sm-3 control-label">Ngày sinh</label>
                                         <div class="col-sm-9">
-                                            <select class="col-md-4 form-control" 
+                                            <select class="col-md-4 form-control"
                                                 placeholder="Ngày"></select>
-                                            <select class="col-md-4 form-control" 
+                                            <select class="col-md-4 form-control"
                                                 placeholder="Tháng"></select>
                                             <select class="col-md-4 form-control" 
                                                 placeholder="Năm"></select>
@@ -79,27 +82,27 @@
                                     <div class="form-group">
                                         <label for="" class="col-sm-3 control-label">Điện thoại</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control"  />
+                                            <input type="text" class="form-control" />
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="col-sm-3 control-label">Địa chỉ</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control"  />
+                                            <input type="text" class="form-control"/>
+
                                         </div>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label">Tỉnh/TP</label>
                                         <div class="col-sm-9">
-                                            <select class="form-control" 
-                                                ></select>
+                                            <select class="form-control" ></select>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-3 control-label">Quận/Huyện</label>
                                         <div class="col-sm-9">
-                                            <select class="form-control" ></select>
+                                            <select class="form-control"></select>
                                         </div>
                                     </div>
                                     <div class="form-group">
