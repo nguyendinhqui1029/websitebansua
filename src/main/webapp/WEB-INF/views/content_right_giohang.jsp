@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div class="cart-content" ng-controller="orderController"
-	ng-init="initOrderCartController()">
+<div class="cart-content" >
 	<h1 class="title">
 		<span>Giỏ hàng của tôi</span>
 	</h1>
@@ -34,18 +33,17 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="item in OrderDetails">
+					<tr >
 						<td class="des">
 							<h2>{{item.ProductName}}</h2> <span>{{item.VariantName}}</span>
 						</td>
-						<td class="image"><img ng-src="{{item.ProductImage}}"
+						<td class="image"><img src="{{item.ProductImage}}"
 							class="img-responsive" /></td>
 						<td class="price">{{item.Price | number:0}}đ</td>
 						<td class="quantity"><input type="number" value="1"
-							class="text" ng-model="item.Quantity"
-							ng-change="updateItemCart(item)" /></td>
+							class="text"  /></td>
 						<td class="amount">{{ item.Amount| number:0 }}đ</td>
-						<td class="remove"><a ng-click="removeItemCart(item)"
+						<td class="remove"><a click=""
 							href="javascript:void(0)"> <i
 								class="glyphicon glyphicon-trash"></i>
 						</a></td>
