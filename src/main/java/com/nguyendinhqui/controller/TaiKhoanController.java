@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class TaiKhoanController {
+	
 	@RequestMapping(value="dang-nhap", method= RequestMethod.GET)
 	public String DangNhap(ModelMap model) {
 		String tieude ="Đăng nhập";
