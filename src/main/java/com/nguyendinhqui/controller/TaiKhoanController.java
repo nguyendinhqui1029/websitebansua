@@ -7,9 +7,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-
-@RequestMapping("dangnhap")
-
 public class TaiKhoanController {
 	@RequestMapping(value="dang-nhap", method= RequestMethod.GET)
 	public String DangNhap(ModelMap model) {
