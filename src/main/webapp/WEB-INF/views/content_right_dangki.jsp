@@ -9,11 +9,14 @@
                                 <span ></span>
                             </div>
                             <div class="alert alert-success fade in">
+
                                 <button data-dismiss="alert" class="close"></button>
                                 <i class="fa-fw fa fa-check"></i>
                                 <strong>Success!</strong> Đăng ký thành công.
                             </div>
+
                             <div class="alert alert-danger fade in">
+
                                 <button data-dismiss="alert" class="close"></button>
                                 <i class="fa-fw fa fa-times"></i>
                                 <strong>Error!</strong>
@@ -33,7 +36,7 @@
                                         <label for="Email" class="col-sm-3 control-label">Email<span
                                                 class="warning">(*)</span></label>
                                         <div class="col-sm-9">
-                                            <input type="email" class="form-control" required="true" />
+                                            <input type="email" class="form-control"  required="true" />
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -56,7 +59,7 @@
                                         <label for="Name" class="col-sm-3 control-label">Họ tên<span
                                                 class="warning">(*)</span></label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" ng-model="Name" required="true" />
+                                            <input type="text" class="form-control"  required="true" />
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -86,6 +89,7 @@
                                         <label for="" class="col-sm-3 control-label">Địa chỉ</label>
                                         <div class="col-sm-9">
                                             <input type="text" class="form-control"/>
+
                                         </div>
                                     </div>
 
