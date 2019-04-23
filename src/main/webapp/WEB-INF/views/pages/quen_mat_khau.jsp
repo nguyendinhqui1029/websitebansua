@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://www.springframework.org/tags"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,15 +20,20 @@
 		<div class="main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-					
-						<!-- nội dung chi tiết đơn hàng -->
-						<%@ include file="/WEB-INF/views/content_center_donhang.jsp"%>
-						<!-- nội dung chi tiết đơn hàng -->
+					<div class="col-md-3">
+						<!-- conten left tai khoan -->
+						<%@ include file="/WEB-INF/views/content_left_taikhoan.jsp"%>
+						<!-- conten left tai khoan -->
 						
 					</div>
 
-					
+					<div class="col-md-9">
+						<section class="product-content clearfix"> 
+						<!-- noi dung dang ki tai khoan -->
+						<%@ include file="/WEB-INF/views/content_right_quenmatkhau.jsp"%>
+						<!-- noi dung dang ki tai khoan -->
+						</section>
+					</div>
 				</div>
 			</div>
 		</div>

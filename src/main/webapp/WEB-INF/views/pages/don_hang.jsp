@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://www.springframework.org/tags"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -20,28 +20,15 @@
 		<div class="main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-12">
 					
-						<!-- content left liên hệ -->
-						<%@ include file="/WEB-INF/views/ho_tro_truc_tuyen.jsp"%>
-						<!-- content left liên hệ -->
+						<!-- nội dung chi tiết đơn hàng -->
+						<%@ include file="/WEB-INF/views/content_center_donhang.jsp"%>
+						<!-- nội dung chi tiết đơn hàng -->
 						
 					</div>
 
-					<div class="col-md-6">
-						<section class="product-content clearfix"> 
-						<!-- content center liên hệ -->
-						<%@ include file="/WEB-INF/views/content_center_lienhe.jsp"%>
-						<!-- content center liên hệ -->
-						</section>
-					</div>
-					<div class="col-md-3">
-						<section class="product-content clearfix"> 
-						<!-- content right tin tức -->
-						<%@ include file="/WEB-INF/views/san_pham_noi_bat.jsp"%>
-						<!-- content right tin tức --> 
-						</section>
-					</div>
+					
 				</div>
 			</div>
 		</div>

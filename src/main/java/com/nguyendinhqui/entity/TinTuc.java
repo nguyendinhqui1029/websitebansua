@@ -1,5 +1,7 @@
 package com.nguyendinhqui.entity;
 
-public class TinTuc {
+import java.io.Serializable;
+
+public class TinTuc implements Serializable{
 
 }

@@ -1,5 +1,4 @@
 
-<%@ taglib prefix="c" uri="http://www.springframework.org/tags" %>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="<c:url value="/resources/js/bootstrap/css/bootstrap.min.css"/>" rel="stylesheet"/>
 	<link href="<c:url value="/resources/css/font-awesome.min.css"/>" rel="stylesheet"/>
