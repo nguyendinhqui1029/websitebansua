@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="true" %>
 <div class="header">
     <section class="top-link clearfix">
          <div class="container">
@@ -14,10 +16,31 @@
                         	<i class="fa fa-pencil-square-o"></i> Kiểm tra đơn hàng</a></li>
                         <li class="order-cart"><a href="gio-hang">
                         	<i class="fa fa-shopping-cart"></i> Giỏ hàng</a></li>
-                        <li class="account-login"><a href="dang-nhap">
-                        	<i class="fa fa-sign-in"></i> Đăng nhập </a></li>
-                        <li class="account-register"><a href="dang-ki">
-                        	<i class="fa fa-key"></i> Đăng ký </a></li>
+                        <c:choose>
+                        	<c:when test="${not empty tentaikhoan }">
+	                        	 <li class="account-register"><a href="dang-xuat">
+	                        			<i class="fa fa-sign-out"></i> Đăng xuất </a></li>
+	                        	<c:choose>
+	                        		<c:when test="${loaitaikhoan == 'Normal' }">
+	                        			<li class="account-login"><a href="thong-tin-khach-hang">
+                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
+	                        		</c:when>
+	                        		<c:when test="${loaitaikhoan == 'Admin' }">
+	                        			<li class="account-login"><a href="quan-tri">
+                        				<i class="fa fa-user"></i> Quản trị </a></li>
+                        				<li class="account-login"><a href="#">
+                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
+	                        		</c:when>
+	                        	</c:choose>
+                        	</c:when>
+                        	<c:when test="${empty tentaikhoan }">
+                        		 <li class="account-login"><a href="dang-nhap">
+                        			<i class="fa fa-sign-in"></i> Đăng nhập </a></li>
+                       			 <li class="account-register"><a href="dang-ki">
+                        			<i class="fa fa-key"></i> Đăng ký </a></li>
+                        	</c:when>
+                        </c:choose>
+                       
                    </ul>
                    <div class="show-mobile hidden-lg hidden-md">
                    <div class="quick-user">
@@ -26,15 +49,30 @@
                 </div>
                 <div class="inner-toggle">
                      <ul class="login links">
-                         <li>
-                            <a href="dang-ki">
-                            	<i class="fa fa-sign-in"> </i> Đăngký
-                            </a>
-                         </li>
-                         <li>
-                            <a href="dang-nhap">
-                            	<i class="fa fa-key"></i> Đăng nhập</a>
-                         </li>
+                         <c:choose>
+                        	<c:when test="${not empty tentaikhoan }">
+	                        	 <li class="account-register"><a href="dang-xuat">
+	                        			<i class="fa fa-sign-out"></i> Đăng xuất </a></li>
+	                        	<c:choose>
+	                        		<c:when test="${loaitaikhoan == 'Normal' }">
+	                        			<li class="account-login"><a href="thong-tin-khach-hang">
+                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
+	                        		</c:when>
+	                        		<c:when test="${loaitaikhoan == 'Admin' }">
+	                        			<li class="account-login"><a href="quan-tri">
+                        				<i class="fa fa-user"></i> Quản trị </a></li>
+                        				<li class="account-login"><a href="#">
+                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
+	                        		</c:when>
+	                        	</c:choose>
+                        	</c:when>
+                        	<c:when test="${empty tentaikhoan }">
+                        		 <li class="account-login"><a href="dang-nhap">
+                        			<i class="fa fa-sign-in"></i> Đăng nhập </a></li>
+                       			 <li class="account-register"><a href="dang-ki">
+                        			<i class="fa fa-key"></i> Đăng ký </a></li>
+                        	</c:when>
+                        </c:choose>
                      </ul>
                 </div>
              </div>

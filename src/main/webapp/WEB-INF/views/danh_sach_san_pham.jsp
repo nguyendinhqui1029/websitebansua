@@ -7,7 +7,7 @@
 	<div class="col-md-3 col-sm-3 col-xs-12 product-resize product-item-box">
 		<div class="product-item">
 			<div class="image image-resize" style= "height: 220px;">
-				<a href="san-pham/sua-enfagrow-a4-360-brain-plus-900g-mau-moi-.html"
+				<a href="#"
 					title="SỮA ENFAGROW A+4 360 BRAIN PLUS - 900G( MẪU MỚI)"> <img
 					src="<c:url value="/resources/images/product/product5.jpg"/>"
 					class="img-responsive" style="height: 100%; width: 100%;"/>
@@ -155,8 +155,7 @@
 					<span class="price-new">245.000&nbsp;₫</span>
 				</div>
 				<div class="addtocart-button clearfix">
-					<a class="add-to-cart" href="javascript:void(0)"
-						onclick="AddToCard(10752,1)"><i class="fa fa-shopping-cart"></i>
+					<a class="add-to-cart" href="javascript:void(0)"><i class="fa fa-shopping-cart"></i>
 						Mua</a>
 				</div>
 			</div>
