@@ -59,6 +59,8 @@ public class ConnectDatabase {
 					stmt.setString(i+1,String.valueOf(vt.get(i).toString()));
 				}else if(vt.get(i) instanceof Date) {
 					stmt.setDate(i+1,Date.valueOf(vt.get(i).toString()));
+				}else if(vt.get(i) instanceof Boolean) {
+					stmt.setBoolean(i+1,Boolean.valueOf(vt.get(i).toString()));
 				}
 			}
 			rs =stmt.executeQuery();
@@ -84,6 +86,8 @@ public class ConnectDatabase {
 					stmt.setString(i+1,String.valueOf(vt.get(i).toString()));
 				}else if(vt.get(i) instanceof Date) {
 					stmt.setDate(i+1,Date.valueOf(vt.get(i).toString()));
+				}else if(vt.get(i) instanceof Boolean) {
+					stmt.setBoolean(i+1,Boolean.valueOf(vt.get(i).toString()));
 				}
 			}
 			rs = stmt.executeUpdate();
@@ -109,6 +113,8 @@ public class ConnectDatabase {
 					stmt.setString(i+1,String.valueOf(vt.get(i).toString()));
 				}else if(vt.get(i) instanceof Date) {
 					stmt.setDate(i+1,Date.valueOf(vt.get(i).toString()));
+				}else if(vt.get(i) instanceof Boolean) {
+					stmt.setBoolean(i+1,Boolean.valueOf(vt.get(i).toString()));
 				}
 			}
 			rs = stmt.executeUpdate();
@@ -134,6 +140,8 @@ public class ConnectDatabase {
 					stmt.setString(i+1,String.valueOf(vt.get(i).toString()));
 				}else if(vt.get(i) instanceof Date) {
 					stmt.setDate(i+1,Date.valueOf(vt.get(i).toString()));
+				}else if(vt.get(i) instanceof Boolean) {
+					stmt.setBoolean(i+1,Boolean.valueOf(vt.get(i).toString()));
 				}
 			}
 			rs = stmt.executeUpdate();

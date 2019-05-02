@@ -28,8 +28,6 @@
 	                        		<c:when test="${loaitaikhoan == 'Admin' }">
 	                        			<li class="account-login"><a href="quan-tri">
                         				<i class="fa fa-user"></i> Quản trị </a></li>
-                        				<li class="account-login"><a href="#">
-                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
 	                        		</c:when>
 	                        	</c:choose>
                         	</c:when>
@@ -61,8 +59,6 @@
 	                        		<c:when test="${loaitaikhoan == 'Admin' }">
 	                        			<li class="account-login"><a href="quan-tri">
                         				<i class="fa fa-user"></i> Quản trị </a></li>
-                        				<li class="account-login"><a href="#">
-                        				<i class="fa fa-user"></i> ${tentaikhoan} </a></li>
 	                        		</c:when>
 	                        	</c:choose>
                         	</c:when>
@@ -209,56 +205,19 @@
                                             </div>
                                             <nav id="mobile-menu" class="mobile-menu collapse navbar-collapse">
                                                 <ul class='menu nav navbar-nav'>
-                                                    <li class="level0"><a class='' href='/'><span>Trang
+                                                    <li class="level0"><a class='' href='index'><span>Trang
                                                                 chủ</span></a></li>
                                                     <li class="level0"><a class='' href='#'><span>Sản
                                                                 phẩm</span></a>
-                                                        <ul class='level1'>
-                                                            <li class="level1"><a class=''
-                                                                    href='san-pham/SP002'><span>Sữa bầu</span></a>
-                                                                <ul class='level2'>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/sua-bot-8624.html'><span>sữa
-                                                                                bột</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/chao-bot-an-dam-8625.html'><span>cháo,
-                                                                                bột ăn dặm</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
-                                                                                cụ ăn uống</span></a></li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1"><a class=''
-                                                                    href='san-pham/SP001'><span>Sữa tăng cân</span></a>
-                                                                <ul class='level2'>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/sua-bot-8624.html'><span>sữa
-                                                                                bột</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/chao-bot-an-dam-8625.html'><span>cháo,
-                                                                                bột ăn dặm</span></a></li>
-                                                                    <li class="level2"><a class=''
-                                                                            href='san-pham/dung-cu-an-uong-8626.html'><span>dụng
-                                                                                cụ ăn uống</span></a></li>
-                                                                </ul>
-               
-                                                            </li>
-                                                            <li class="level1"><a class=''
-                                                                    href='san-pham/SP003'><span>bé vệ
-                                                                        sinh</span></a>
-                                                            
-                                                            </li>
-                                                            <li class="level1"><a class=''
-                                                                    href='san-pham/SP004'><span>bé ra
-                                                                        phố</span></a>
-                                                                
-                                                            </li>
-                                                            <li class="level1"><a class=''
-                                                                    href='san-pham/SP005'><span>dành cho
-                                                                        mẹ</span></a>
-                                                                
-                                                            </li>
-                                                        </ul>
+                                                        <c:if test="${not empty dsloaisanpham}">
+                                                        	 <ul class='level1'>
+                                                        	 	<c:forEach var="lsp" items="${dsloaisanpham}">
+                                                        	 		<li class="level1"><a class=''
+	                                                                    href='${lsp.maLSP}' ><span>${lsp.tenLSP}</span></a>
+	                                                            	</li>
+                                                        	 	</c:forEach>
+                                                       		 </ul>
+                                                        </c:if>
                                                     </li>
                                                     <li class="level0"><a class='' href='tin-tuc'><span>Tin
                                                                 tức</span></a></li>

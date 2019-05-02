@@ -34,6 +34,7 @@ public class TaiKhoanController {
 		String tieude ="Đăng nhập";
 		model.addAttribute("tieude",tieude);
 		model.addAttribute("taikhoan",new TaiKhoan());
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/dangnhap";
 	}
 	
@@ -41,6 +42,7 @@ public class TaiKhoanController {
 	public String DangNhap(@ModelAttribute(name="TaiKhoan") TaiKhoan tk, ModelMap model,HttpSession session) {
 		String tieude ="Đăng nhập";
 		model.addAttribute("tieude",tieude);
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		String sql ="SELECT * FROM TAIKHOAN WHERE tenTK=?";
 		Vector vt = new Vector();
 		vt.add(tk.getTenTaiKhoan());
@@ -78,6 +80,7 @@ public class TaiKhoanController {
 		session.removeAttribute("tentaikhoan");
 		session.removeAttribute("loaitaikhoan");
 		model.addAttribute("taikhoan",new TaiKhoan());
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/dangnhap";
 	}
 	//End đăng xuất
@@ -86,6 +89,7 @@ public class TaiKhoanController {
 	@RequestMapping(value="quen-mat-khau",method = RequestMethod.GET)
 	public String QuenMatKhau(ModelMap model) {
 		String tieude ="Quên mật khẩu";
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/quen_mat_khau";
 	}
 	//End Quên mật khẩu
@@ -123,6 +127,7 @@ public class TaiKhoanController {
 		model.addAttribute("ds",dsTinhThanhPho);
 		model.addAttribute("TaiKhoan", new TaiKhoan());
 		model.addAttribute("dsquan",dsTinhThanhPho.get(0).getArrQuanHuyen());
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/dangki";
 		
 	} 
@@ -162,6 +167,7 @@ public class TaiKhoanController {
 		model.addAttribute("tieude",tieude);
 		model.addAttribute("ds",dsTinhThanhPho);
 		model.addAttribute("dsquan",dsTinhThanhPho.get(0).getArrQuanHuyen());
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/dangki";
 	}
 	

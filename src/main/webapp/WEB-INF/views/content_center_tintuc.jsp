@@ -8,14 +8,14 @@
 	<div class="news-block clearfix">
 		<div class="news-item clearfix">
 			<div class="col-md-3 col-sm-4 col-xs-12 image">
-				<a href="tin-tuc/huong-dan-cach-thay-ta-chi-tiet-cho-be.html"><img
+				<a href="chi-tiet-tin-tuc/TT02"><img
 					src="<c:url value="/resources/images/product/product1.jpg"/>"
 					class="img-responsive"
 					alt="HƯỚNG DẪN C&#193;CH THAY T&#195; CHI TIẾT CHO B&#201;" /></a>
 			</div>
 			<div class="col-md-9 col-sm-8 col-xs-12 news-info ">
 				<h2 class="name">
-					<a href="tin-tuc/huong-dan-cach-thay-ta-chi-tiet-cho-be.html">HƯỚNG
+					<a href="chi-tiet-tin-tuc/TT02">HƯỚNG
 						DẪN C&#193;CH THAY T&#195; CHI TIẾT CHO B&#201;</a>
 				</h2>
 				<p class="date">30/03/2016</p>
@@ -24,14 +24,14 @@
 		</div>
 		<div class="news-item clearfix">
 			<div class="col-md-3 col-sm-4 col-xs-12 image">
-				<a href="tin-tuc/tai-sao-thai-do-lai-quan-trong-hon-chi-so-iq.html"><img
+				<a href="chi-tiet-tin-tuc/TT03"><img
 					src="<c:url value="/resources/images/product/product2.jpg"/>"
 					class="img-responsive"
 					alt="TẠI SAO TH&#193;I ĐỘ LẠI QUAN TRỌNG HƠN CHỈ SỐ IQ" /></a>
 			</div>
 			<div class="col-md-9 col-sm-8 col-xs-12 news-info ">
 				<h2 class="name">
-					<a href="tin-tuc/tai-sao-thai-do-lai-quan-trong-hon-chi-so-iq.html">TẠI
+					<a href="chi-tiet-tin-tuc/TT03">TẠI
 						SAO TH&#193;I ĐỘ LẠI QUAN TRỌNG HƠN CHỈ SỐ IQ</a>
 				</h2>
 				<p class="date">08/01/2015</p>
@@ -49,8 +49,7 @@
 		</div>
 		<div class="news-item clearfix">
 			<div class="col-md-3 col-sm-4 col-xs-12 image">
-				<a
-					href="tin-tuc/nhung-thiet-thoi-cho-ca-me-va-con-khi-khong-cho-be-bu-dem.html"><img
+				<a href="chi-tiet-tin-tuc/TT04"><img
 					src="<c:url value="/resources/images/product/product5.jpg"/>"
 					class="img-responsive"
 					alt="NHỮNG THIỆT TH&#210;I CHO CẢ MẸ V&#192; CON KHI KH&#212;NG CHO B&#201; B&#218; Đ&#202;M" /></a>
@@ -58,7 +57,7 @@
 			<div class="col-md-9 col-sm-8 col-xs-12 news-info ">
 				<h2 class="name">
 					<a
-						href="tin-tuc/nhung-thiet-thoi-cho-ca-me-va-con-khi-khong-cho-be-bu-dem.html">NHỮNG
+						href="chi-tiet-tin-tuc/TT04">NHỮNG
 						THIỆT TH&#210;I CHO CẢ MẸ V&#192; CON KHI KH&#212;NG CHO B&#201;
 						B&#218; Đ&#202;M</a>
 				</h2>
@@ -77,13 +76,13 @@
 		</div>
 		<div class="news-item clearfix">
 			<div class="col-md-3 col-sm-4 col-xs-12 image">
-				<a href="tin-tuc/4-ky-nang-song-quan-trong-can-day-tre.html"><img
+				<a href="chi-tiet-tin-tuc/TT05"><img
 					src="<c:url value="/resources/images/product/product6.jpg"/>"
 					class="img-responsive" alt="4 KỸ NĂNG SỐNG QUAN TRỌNG CẦN DẠY TRẺ" /></a>
 			</div>
 			<div class="col-md-9 col-sm-8 col-xs-12 news-info ">
 				<h2 class="name">
-					<a href="tin-tuc/4-ky-nang-song-quan-trong-can-day-tre.html">4
+					<a href="chi-tiet-tin-tuc/TT05">4
 						KỸ NĂNG SỐNG QUAN TRỌNG CẦN DẠY TRẺ</a>
 				</h2>
 				<p class="date">27/06/2014</p>
@@ -105,7 +104,7 @@
 		<div class="news-item clearfix">
 			<div class="col-md-3 col-sm-4 col-xs-12 image">
 				<a
-					href="tin-tuc/cach-don-gian-phong-benh-viem-phoi-cho-tre-luc-giao-mua.html"><img
+					href="chi-tiet-tin-tuc/TT06"><img
 					src="<c:url value="/resources/images/product/product7.jpg"/>"
 					class="img-responsive"
 					alt="C&#193;CH ĐƠN GIẢN PH&#210;NG BỆNH VI&#202;M PHỔI CHO TRẺ L&#218;C GIAO M&#217;A" /></a>
@@ -113,7 +112,7 @@
 			<div class="col-md-9 col-sm-8 col-xs-12 news-info ">
 				<h2 class="name">
 					<a
-						href="tin-tuc/cach-don-gian-phong-benh-viem-phoi-cho-tre-luc-giao-mua.html">C&#193;CH
+						href="chi-tiet-tin-tuc/TT06">C&#193;CH
 						ĐƠN GIẢN PH&#210;NG BỆNH VI&#202;M PHỔI CHO TRẺ L&#218;C GIAO
 						M&#217;A</a>
 				</h2>

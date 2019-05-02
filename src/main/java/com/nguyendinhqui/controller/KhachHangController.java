@@ -11,6 +11,7 @@ public class KhachHangController {
 	public String QuanTri(ModelMap model) {
 		String tieude ="Đăng nhập";
 		model.addAttribute("tieude",tieude);
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/thong-tin-khach-hang";
 	}
 }

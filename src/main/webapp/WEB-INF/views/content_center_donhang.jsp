@@ -98,8 +98,7 @@
 				</table>
 			</div>
 			<div class="button text-right">
-				<a class="btn btn-default" href="dang-nhap.html">Trở về danh
-					sách đơn hàng</a> <a class="btn btn-primary" href="index.html">Tiếp
+				<a class="btn btn-primary" href="/">Tiếp
 					tục mua hàng</a>
 			</div>
 		</div>

@@ -12,6 +12,7 @@ public class QuanTriController {
 	public String QuanTri(ModelMap model) {
 		String tieude ="Đăng nhập";
 		model.addAttribute("tieude",tieude);
+		model.addAttribute("dsloaisanpham",IndexController.layDanhSachLoaiSanPham());
 		return "/pages/quan-tri";
 	}
 }
